@@ -1,0 +1,13 @@
+.input_field {
+    height: 200px;
+}
+.output_field {
+    height: 400px;
+}
+
+.swhich_buttons {
+    margin-top: 10px;
+}
+.swhich_buttons button{
+    margin-top: 5px;
+}

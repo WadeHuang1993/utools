@@ -1,0 +1,76 @@
+body {
+    position: relative;
+    color: #5a5a5a;
+    font: 14px/20px Verdana, Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar a span{
+  font-weight:bold;
+  color: #00cc66;
+}
+
+.row.content {
+  padding: 5px;
+  height: 400px;
+  display: table;
+}
+
+.center {
+}
+.swhich_buttons {
+  visibility: hidden;
+}
+
+strong {
+    color: #00cc66;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.sidenav p {
+  text-align: left;
+  color: #337ab7;
+}
+.ad-block {
+  visibility: hidden;
+}
+.top-ad {
+  margin-top: 20px;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+.margin-10 {
+  margin: 10px;
+}
+.margin-20 {
+  margin: 20px;
+}
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+ul.step {
+  list-style-type: square;
+  padding-left: 15px;
+}
